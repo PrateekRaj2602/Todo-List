@@ -29,13 +29,13 @@ const Item = mongoose.model("Item", itemsSchema);
 
 ////// Creating the documents
 const item1 = new Item({
-  name : "work1"
+  name : "Eat"
 });
 const item2 = new Item({
-  name : "work2"
+  name : "Read"
 });
 const item3 = new Item({
-  name : "work3"
+  name : "Walk"
 });
 
 
